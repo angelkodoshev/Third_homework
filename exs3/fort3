@@ -1,0 +1,18 @@
+fun=fn
+{0,0,x}->"FizzBuzz"
+{0,y,z}->"Fizz"
+{c,0,v}->"Buzz"
+_->"test"
+end
+
+
+check_list=fn
+[x,y,z]->false
+_->true
+end
+
+
+mapstruc=fn
+%{first: "Alice",second: "Hemigway",age: 21}->"Hello Alice Hemigway"
+end
+
